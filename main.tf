@@ -12,8 +12,8 @@ terraform {
   required_version = ">= 1.1.0"
 
   cloud {
-    organization = "YOUR_ORGANIZATION_NAME"
-    # organization = "branch_gg"
+    # organization = "YOUR_ORGANIZATION_NAME"
+    organization = "branch-gg"
 
     workspaces {
       name = "gh-actions-demo"
